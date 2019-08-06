@@ -13,7 +13,7 @@
 		5475D6C71F9ED24100AFA523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5475D6C61F9ED24100AFA523 /* Assets.xcassets */; };
 		5475D6CA1F9ED24100AFA523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5475D6C81F9ED24100AFA523 /* LaunchScreen.storyboard */; };
 		5475D6D21F9ED25300AFA523 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D6D11F9ED25300AFA523 /* Data.swift */; };
-		5475D6D41F9ED6DC00AFA523 /* TextTwistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D6D31F9ED6DC00AFA523 /* TextTwistModel.swift */; };
+		589A00A922F8C1B000AE1520 /* randomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589A00A822F8C1B000AE1520 /* randomGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5475D6C91F9ED24100AFA523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5475D6CB1F9ED24100AFA523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5475D6D11F9ED25300AFA523 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		5475D6D31F9ED6DC00AFA523 /* TextTwistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTwistModel.swift; sourceTree = "<group>"; };
+		589A00A822F8C1B000AE1520 /* randomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				5475D6D51F9EDB1A00AFA523 /* Supporting Files */,
 				5475D6D11F9ED25300AFA523 /* Data.swift */,
-				5475D6D31F9ED6DC00AFA523 /* TextTwistModel.swift */,
 				5475D6C11F9ED24100AFA523 /* ViewController.swift */,
 				5475D6C31F9ED24100AFA523 /* Main.storyboard */,
+				589A00A822F8C1B000AE1520 /* randomGenerator.swift */,
 				5475D6CB1F9ED24100AFA523 /* Info.plist */,
 			);
 			path = TextTwist;
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5475D6D41F9ED6DC00AFA523 /* TextTwistModel.swift in Sources */,
+				589A00A922F8C1B000AE1520 /* randomGenerator.swift in Sources */,
 				5475D6C21F9ED24100AFA523 /* ViewController.swift in Sources */,
 				5475D6D21F9ED25300AFA523 /* Data.swift in Sources */,
 				5475D6C01F9ED24100AFA523 /* AppDelegate.swift in Sources */,
